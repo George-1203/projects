@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+    background: grey;
+    font-size: 15px;
+}
+.main {
+    margin: 40px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 80%;
+    word-break: break-all;
+    background: white;
+}
+.product {
+    margin: 0;
+    padding: 10px;
+    width: 18%;
+    min-width: 150px;
+    border: 1px solid lightgrey;
+    float: left;
+    position: relative;
+}
+img {
+    width: 80%;
+    
+}
+div h5 {
+    margin: 0;
+    color: green;
+}
+h2 {
+    margin: 0;
+}
+span {
+    font-size: 10px;
+}
+.main::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+img.heart {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+img.libra {
+    width: 30px;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+}
+img.bascet {
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+}
