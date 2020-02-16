@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+    background: beige;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, p, div {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.main {
+    margin: 30px auto;
+    padding: 10px;
+    width: 80%;
+    word-break: break-all;
+    border: 1px solid black;
+    background: white;
+    overflow: hidden;
+    display: flex;
+}
+
+.product {
+    padding: 10px;
+    width: 20%;
+    min-width: 150px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    position: relative;
+}
+
+.right {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.right img {
+    margin: 10px;
+    width: 25px;
+    display: block;
+}
+
+.main-photo {
+    text-align: center;
+}
+
+.main-photo img {
+    width: auto;
+    height: auto;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.text-info img {
+    width: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+.text-info img:hover {
+    opacity: inherit;
+    background: yellow;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.green {
+    color: green;
+}
+
+.text-info h2 > span {
+    font-size: 17px;
+}
+
+.text-info > p {
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
