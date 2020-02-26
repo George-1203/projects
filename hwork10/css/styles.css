@@ -69,18 +69,20 @@ h2 span {
 }
 
 
-/*container*/
+/*row-container*/
 
 .row-container {
     margin: 0 auto;
     padding-top: 50px;
     width: 80%;
 }
-
+.product-group {
+    height: 400px;
+}
 
 .product-group div {
     margin: 10px;
-    height: 300px;
+    height: 350px;
     padding: 20px;
     display: flex;
     flex-direction: column;
